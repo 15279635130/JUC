@@ -31,6 +31,7 @@ public class TestString {
         System.out.println(s4 == "java");
         System.out.println(s4 == (s5 + s6));    // 常量找池，变量找堆(使用 +)
         System.out.println(s4 == "ja" + s6);
+        System.out.println("java" == "ja" + "va");  // "ja" + "va" 在编译的时候就加好成“java”
 
     }
 }
